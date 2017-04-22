@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "compare-indentation",
+  "description": "Compare indentation strategies",
+  "version": "0.0.0",
+  "repository": {},
+  "scripts": {
+    "test": "echo lol",
+    "lint-samples": "node tasks/lint-samples",
+    "dev": "vbuild -d",
+    "build": "vbuild"
+  },
+  "devDependencies": {
+    "vbuild": "^6.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^3.19.0",
+    "postcss-nested": "^1.0.1",
+    "sanitize.css": "^5.0.0",
+    "vue-brace": "^2.0.0"
+  }
+}
